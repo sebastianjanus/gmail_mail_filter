@@ -7,15 +7,13 @@
   Date: 19.08.2014
 
 DOC
-  
+require 'gmail'
+require 'json'
+
 $USERNAME = ':USERNAME';
 $PASSWORD = ':PASSWORD';
 $UNWANTED_EMAIL_ADDRESS = ':UNWANTED_EMAIL_ADDRESS';
 
-
-
-require 'gmail'
-require 'json'
 print "\n\n\n"
 print "Connecting to Google Mail ..."
 gmail = Gmail.new($USERNAME, $PASSWORD)
