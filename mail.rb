@@ -1,12 +1,9 @@
 #!/usr/bin/env ruby
 
 <<-DOC
-  Script for Google Mail to completely delete mails from unwanted sources. 
-  Adding missing functionality to GMail. Only works for IMAP accounts.
-
   Date: 19.08.2014
-
 DOC
+
 require 'gmail'
 require 'json'
 
